@@ -8,7 +8,7 @@ public class FileManager {
 	public static String readFile ()
 	{
 		String data = "";
-		String pathname = "bin/data.twentyquestions";
+		String pathname = "data.twentyquestions";
 		File file = new File(pathname);	
 		Scanner input = null;
 		try
@@ -31,7 +31,7 @@ public class FileManager {
 	}
 	
 	public static void writeFile (String data) {
-		String pathname = "bin/data.twentyquestions";
+		String pathname = "data.twentyquestions";
 		File file = new File(pathname);
 		
 		try {
